@@ -1,0 +1,138 @@
+#detail-product{
+    display: flex;
+    width: 74%;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+
+.img-price-product{
+    text-align: center;
+    color: #d30e15;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.infor-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-infor{
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 35px 0;
+}
+
+.infor-icon-product,
+.note-product {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.note-product{
+    margin-top: 40px;
+    
+}
+
+.text-note{
+    width: 100%;
+    height: 65px;
+    border: 1px solid #ccc;
+    outline: unset;
+    padding: 10px;
+}
+
+.name-icon-product{
+    width: 61%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-product{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.name-product{
+    font-size: 24px;
+    color: #111;
+}
+
+.description{
+    font-size: 16px;
+    color: #444444;
+}
+
+.title-note{
+    color: #006a31;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.icon-i{
+    background-color: #fff;
+    color: #3fc7ee;
+    text-align: center;
+    height: 25px;
+    border: 1px solid #e1e1e1;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.btn-add{
+    width: 80%;
+    height: 46px;
+    background-color: #007d43;
+    color: #fff;
+    font-weight: 700;
+    border: unset;
+    border-radius: 10px;
+}
+
+/* responsive */
+@media (min-width: 1024px) {
+    /* CSS Computer */
+}
+
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    /* CSS shared tablet and mobile */
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    /* CSS Tablet */
+    .infor-icon-product{
+        margin: unset;
+        width: 100%;
+     }
+
+     .name-icon-product{
+        width: 90%;
+    }
+
+    .note-product{
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+
+@media (max-width: 739px) {
+
+    /* CSS mobile */
+
+    #detail-product{
+        flex-direction: column;
+    }
+
+    .img-detail-product{
+        width: 100%;
+     }
+    .name-icon-product {
+        width: unset;
+    }
+
+ 
+}
